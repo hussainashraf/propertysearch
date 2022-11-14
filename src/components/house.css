@@ -1,0 +1,142 @@
+
+#color {
+    background-color: #7743DB;
+    color: white;   
+}
+#color:hover{
+    background-color: #7743DB;
+    border-color: #7743DB;
+}
+#color:visited{
+    background-color: #7743DB;
+    border-color: #7743DB;
+}
+
+.btn-success{
+    background-color: #7743DB;
+    color: white;
+    border-color: #7743DB;
+}
+#login{
+    color: #7743DB;
+    background-color: white;
+    border-color: grey;
+}
+.heading{
+    font-family: 'Roboto', sans-serif;
+}
+
+.subheading{
+    width: 700px;
+    /* height: 100px; */
+    margin-left: 10rem;
+    margin-top: 30px;
+}
+
+.filterbox{
+    margin: auto;
+    width: 70%;
+    
+}
+
+.srcbtn{
+    background-color: #7743DB;
+    border: 1px;
+    border-radius: 5px;
+    padding: 9px;
+    width: 100px;
+    color: white;
+}
+
+.dropdown-icon-primary{
+    color: #7743DB;
+    width: 50px;
+  
+}
+
+.dropdown{
+    cursor: pointer;
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    border: 0;
+    position: relative;
+    display: inline-block;
+    z-index: 2;
+    
+}
+.dropdown-btn{
+    display: flex;
+    height: 22px;
+    align-items: center;
+}
+
+
+.dropctr{
+    font-size: 15px;
+    font-size: medium;
+    color: black;
+    font-weight: bolder;
+    width: 200px;
+    
+}
+
+.dropCtr{
+    font-size: 13px;
+    color: #7743DB;
+    width: 100px;
+}
+
+.button{
+    background-color: white;
+    border: 0;
+}
+
+
+img{
+    max-width: 100%;
+    border-radius: 2px;
+    height: 70%;
+    
+    
+}
+.propname{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+.pri{
+    color: #7743DB;
+    font-weight: bolder;
+    font-size: 18px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.add{
+    color: #626067;
+}
+.class{
+    width: 500px;
+    margin-top: 100px;
+    z-index: 1;
+}
+
+:root {
+    --spinner-color: #7743DB;
+  }
+.spin{
+    width: 100px;
+    overflow: visible;
+   
+  }
+  svg circle {
+    stroke: var(--spinner-color);
+    transform-origin: 50px 50px;
+    
+    animation: spin 1.2s linear infinite;
+  }
+  
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
